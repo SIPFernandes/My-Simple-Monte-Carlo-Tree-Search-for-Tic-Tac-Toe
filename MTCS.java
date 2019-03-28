@@ -90,7 +90,7 @@ public class MTCS {
 	/**
 	 * Gets the best child and should return it but instead, to simplify in this specific case,
 	 * it returns the move played in that child.  
-	 * @param sucs		list of child's
+	 * @param sucs		list of children
 	 * @return			position played in that child
 	 */
 	final private int bestChild(List<State> sucs) {
