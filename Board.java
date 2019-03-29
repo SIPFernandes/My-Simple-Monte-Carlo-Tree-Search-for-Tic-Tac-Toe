@@ -326,9 +326,9 @@ public class Board implements Ilayout, Cloneable {
 
 	@Override
 	public int winnerToInt() {
-		if(winner == State.X)
-			return 1;
-		return 0;
+		if(winner == State.O)
+			return 0;
+		return 1;
 	}
 
 	@Override
