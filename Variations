@@ -1,0 +1,4 @@
+Its possible to add some variations to this simple MCTS:
+  -Removing the less promissing childs every x iterations from the total n iterations;
+  -Using the merit formula to make the most promissing child iterate more times and yet iterate other childs to see if they 
+  improve their merit;
