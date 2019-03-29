@@ -43,7 +43,7 @@ public class MTCS {
 		 * sets the g value 
 		 */
 		public void setG() {
-			g = w/n+Math.sqrt(2)*Math.sqrt(Math.log(father.n)/n);
+			g = w/n;
 		}
 	}
 	
@@ -111,7 +111,7 @@ public class MTCS {
 		actual = root;	//select
 		List<State> sucs = expand(actual);
 		int k = 0;
-		while(k < 70) {
+		while(k < 90) {
 			for(int i = 0; i < sucs.size(); i++) {
 				actual = sucs.get(i);
 				simulation();
