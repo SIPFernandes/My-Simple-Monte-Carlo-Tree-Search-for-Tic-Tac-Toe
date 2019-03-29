@@ -111,7 +111,7 @@ public class MTCS {
 		actual = root;	//select
 		List<State> sucs = expand(actual);
 		int k = 0;
-		while(k < 1000) {
+		while(k < 70) {
 			for(int i = 0; i < sucs.size(); i++) {
 				actual = sucs.get(i);
 				simulation();
